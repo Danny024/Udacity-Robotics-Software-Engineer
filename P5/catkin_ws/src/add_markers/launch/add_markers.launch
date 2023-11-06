@@ -1,0 +1,6 @@
+<launch>
+<!--add markerslaunch file-->
+<node pkg="add_markers" type="add_markers" name ="add_markers" output = "screen">
+</node>
+</launch>
+

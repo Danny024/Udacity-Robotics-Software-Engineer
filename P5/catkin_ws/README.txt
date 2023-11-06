@@ -1,0 +1,5 @@
+A brief note on the packages used for the Home service Robots
+
+The turtlebot_simulator package helps to initiate a TurtleBot, in Gazebo, which provides a controlled setting for testing and development purposes.
+To manually control the TurtleBot using your keyboard one can make use of the keyboard_teleop.launch file found in the package.
+If you are interested in conducting SLAM (Simultaneous Localization and Mapping) you can launch the GMapping algorithm by using the gmapping_demo.launch file from the slam_gmapping package. This algorithm enables the TurtleBot to independently explore its surroundings create a map and determine its position within that map.For visualizing the robots navigation and mapping progress open RViz with configurations, by executing the view_navigation.launch file from the turtlebot_interactions package. This will allow you to observe sensor data and maps related to the robots movements.The pgm_map_creator package can be used to create a map of a world you built that can be referenced in the home service script as a map_file.
