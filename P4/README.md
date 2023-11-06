@@ -1,6 +1,6 @@
 <h1>Map my World Using RTAB SLAM</h1>
 
-![pic1](https://github.com/anyuguo/Robotics-Software-Engineer-Udacity/blob/master/P4-Map-My-World/screenshot2.JPG)
+![pic1](https://github.com/Danny024/Udacity-Robotics-Software-Engineer/blob/main/P4/p4screenshot.png)
 ![pic2](https://github.com/anyuguo/Robotics-Software-Engineer-Udacity/blob/master/P4-Map-My-World/screenshot.JPG)
 
 ## Project Description
