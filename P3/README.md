@@ -7,7 +7,7 @@ In this project you'll utilize ROS AMCL package to accurately localize a mobile 
 * Utilize the ROS AMCL package and the Tele-Operation / Navigation Stack to localize the robot  
 * Explore, add, and tune specific parameters corresponding to each package to achieve the best possible localization results
   
-## Prerequisites/Dependencies  
+## Prerequisites/Dependencies & Installations 
 * Gazebo >= 7.0  
 * ROS Kinetic  
 * ROS navigation package  
@@ -34,7 +34,7 @@ sudo apt-get install ros-kinetic-amcl
   * Linux: gcc / g++ is installed by default on most Linux distros
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
-## Installations and Update 
+    
 1. Meet the `Prerequisites/Dependencies`  
 2. Open Ubuntu Bash and clone the project repository  
 3. On the command line execute  
