@@ -1,4 +1,4 @@
-<h1>MWhere am I Localization Project</h1>
+<h1>Where am I Localization Project</h1>
 
 [![Where Am I](https://img.youtube.com/vi/xUPgfLjdBHI/0.jpg)](https://www.youtube.com/watch?v=xUPgfLjdBHI)
 ## Project Description 
@@ -150,7 +150,5 @@ check the amcl.launch file that you have correctly mapped the topics to the corr
 ```
 
 
-## Code Style  
-Adhere to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
- 
+
 
