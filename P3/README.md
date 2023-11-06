@@ -14,7 +14,7 @@ In this project you'll utilize ROS AMCL package to accurately localize a mobile 
 ```
 sudo apt-get install ros-kinetic-navigation
 ```
-* Insatll ROS map_server package  
+* Install ROS map_server package  
 ```
 sudo apt-get install ros-kinetic-map-server
 ```
