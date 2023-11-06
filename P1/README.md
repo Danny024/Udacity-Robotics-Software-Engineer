@@ -57,8 +57,8 @@ Directory Structure
 │   ├── office.world
 ├── CMakeLists.txt                 # Link libraries 
 
- ## File links
 ```
+## File links
 - [office.world](/P1/world/office.world): Gazebo world file.  
 - [floor](/P1/model/floorplan): Floor structure built by Building Editor of Gazebo.  
 - [robot](/P1/model/robo): A robot built by Model Editor of Gazebo.  
