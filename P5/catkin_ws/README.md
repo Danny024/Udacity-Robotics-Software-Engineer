@@ -116,7 +116,7 @@ P5                                                        # Home Service Robot P
 ## Run the project  
 * Clone this repository
 ```
-git clone 
+git clone https://github.com/Danny024/Udacity-Robotics-Software-Engineer/tree/main/P5.git
 ```
 * Navigate to the `src` folder and clone the necessary repositories  
 ```
