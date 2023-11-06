@@ -31,14 +31,15 @@ sudo apt-get update && sudo apt-get upgrade -y
 ## Project Description  
 Directory Structure  
 ```
-.Build-My-World                    # Build My World Project 
+.P1                    # Build My World Project 
 ├── model                          # Model files 
-│   ├── floor
+│   ├── floorplan
 │   │   ├── model.config
 │   │   ├── model.sdf
-│   ├── rb
+│   ├── robo
 │   │   ├── model.config
-│   │   ├── model.sdf
+│   |   |─── model.sdf
+|   ├── b
 ├── script                         # Gazebo World plugin C++ script      
 │   ├── welcome.cpp
 ├── world                          # Gazebo main World containing models 
