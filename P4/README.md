@@ -171,7 +171,7 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```  
 * Launch teleop_twist_keyboard node, open a new terminal, enter  
 ```
-cd /home/workspace/RoboND-Term1-P4-Map-My-World/catkin_ws/
+cd /home/workspace/P4/catkin_ws/
 source devel/setup.bash
 roslaunch my_robot mapping.launch
 ```  
