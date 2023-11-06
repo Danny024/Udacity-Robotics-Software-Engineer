@@ -2,14 +2,14 @@
 
 ![screenshot](https://github.com/Danny024/Udacity-Robotics-Software-Engineer/blob/main/images/myworld.png)  
 
-## Overview  
+## Project Description 
 In this project you'll create your simulation world in Gazebo for all your upcoming projects in the [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209).  
 1. Build a single floor wall structure using the **Building Editor** tool in Gazebo. Apply at least one feature, one color, and optionally one texture to your structure. Make sure there's enough space between the walls for a robot to navigate.  
 2. Model any object of your choice using the **Model Editor** tool in Gazebo. Your model links should be connected with joints.  
 3. Import your structure and two instances of your model inside an empty **Gazebo World**.  
 4. Import at least one model from the **Gazebo online library** and implement it in your existing Gazebo world.  
 5. Write a C++ **World Plugin** to interact with your world. Your code should display “Welcome to {YOUR_NAME}’s World!” message as soon as you launch the Gazebo world file.  
-## Prerequisites/Dependencies  
+## Prerequisites/Dependencies  & Installations
 * Gazebo >= 7.0  
 * ROS Kinetic  
 * make >= 4.1(mac, linux), 3.81(Windows)
@@ -28,7 +28,7 @@ In this project you'll create your simulation world in Gazebo for all your upcom
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 4. Build and run your code.  
-## Project Description  
+## File Management System 
 Directory Structure  
 ```
 .P1                    # Build My World Project 
@@ -57,14 +57,14 @@ Directory Structure
 │   ├── office.world
 ├── CMakeLists.txt                 # Link libraries 
 
- 
+ ## File links
 ```
 - [office.world](/P1/world/office.world): Gazebo world file.  
 - [floor](/P1/model/floorplan): Floor structure built by Building Editor of Gazebo.  
 - [robot](/P1/model/robo): A robot built by Model Editor of Gazebo.  
 - [welcome.cpp](/P1/script/welcome.cpp): Gazebo world plugin C++ script.  
 - [CMakeLists.txt](CMakeLists.txt): File to link the C++ code to libraries.  
-## Run the project  
+## How to Use 
 * Clone this repository
 * At the top level of the project repository, create a build directory:  
 ```bash
@@ -84,7 +84,7 @@ cd /home/workspace/P1/world/
 gazebo office.world
 ```
 
-## Tips  
+## Hints  
 1. It's recommended to update and upgrade your environment before running the code.  
 ```bash
 sudo apt-get update && sudo apt-get upgrade -y
@@ -94,7 +94,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 Please (do your best to) stick to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
 
-## Project Rubric  
+## Udacity Project Rubric / Marking Scheme 
 ### 1. Basic Requirements  
 #### 1.1 Does the project include a world directory containing the Gazebo world file, a model directory containing a structure and an object model files, a script directory containing the C++ plugin code, and a CMakeLists.txt file?  
 Yes, it does.  
