@@ -10,19 +10,19 @@ In this project you'll utilize ROS AMCL package to accurately localize a mobile 
 ## Prerequisites/Dependencies & Installations 
 * Gazebo >= 7.0  
 * ROS Kinetic  
-* ROS navigation package  
+* Install ROS navigation package  
 ```
 sudo apt-get install ros-kinetic-navigation
 ```
-* ROS map_server package  
+* Insatll ROS map_server package  
 ```
 sudo apt-get install ros-kinetic-map-server
 ```
-* ROS move_base package  
+* Install ROS move_base package  
 ```
 sudo apt-get install ros-kinetic-move-base
 ```
-* ROS amcl package  
+* Install ROS amcl package  
 ```
 sudo apt-get install ros-kinetic-amcl
 ```
@@ -123,8 +123,8 @@ roslaunch my_robot amcl.launch
 ```  
 * Testing  
 You can control your robot by either of the two actions:  
-  * Send navigation goal via RViz  
-  * Send move command via teleop package.  
+  1 Send navigation goal via RViz  
+  2. Send move command via teleop package.  
 Navigate your robot, observe its performance and tune your parameters for AMCL.  
 
 **Option 1: Send `2D Navigation Goal`**  
