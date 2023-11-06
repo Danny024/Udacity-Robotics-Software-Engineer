@@ -33,13 +33,24 @@ Directory Structure
 ```
 .P1                    # Build My World Project 
 ├── model                          # Model files 
-│   ├── floorplan
+│   ├── bookshelf
 │   │   ├── model.config
 │   │   ├── model.sdf
-│   ├── robo
+│   ├── coke
 │   │   ├── model.config
-│   |   |─── model.sdf
-|   ├── b
+│   |   ├── model.sdf
+|   ├── cup
+|   |   ├── model.config
+|   |   ├── model.sdf
+|   ├── floorplan
+|   |   ├── model.config
+|   |   ├── model.sdf
+|   ├── robo
+|   |    ├── model.config
+|   |    ├── model.sdf
+|   ├── table
+|        ├── model.config
+|        ├── model.sdf
 ├── script                         # Gazebo World plugin C++ script      
 │   ├── welcome.cpp
 ├── world                          # Gazebo main World containing models 
