@@ -107,7 +107,7 @@ P3                                          # Where Am I Project
 * Clone this repository
 ```
 git clone https://github.com/anyuguo/Robotics-Software-Engineer-Udacity/tree/master/P3-Where-Am-I.git
-```[![Unmanned Aerial Vehicle](https://img.youtube.com/vi/1v-ivv_LiHk/0.jpg)](https://www.youtube.com/watch?v=1v-ivv_LiHk
+```
 * Open the repository and make  
 ```
 cd /home/workspace/P3/catkin_ws/
