@@ -1,5 +1,7 @@
 <h1>Where am I Localization Project</h1>
 
+[Youtube Video Link](https://www.youtube.com/watch?v=xUPgfLjdBHI)
+
 [![Where Am I](https://img.youtube.com/vi/xUPgfLjdBHI/0.jpg)](https://www.youtube.com/watch?v=xUPgfLjdBHI)
 ## Project Description 
 In this project you'll utilize ROS AMCL package to accurately localize a mobile robot inside a map in the Gazebo simulation environments. Here are the steps to learn several aspects of robotic software engineering with a focus on ROS:  
