@@ -60,8 +60,8 @@ Directory Structure
  
 ```
 - [office.world](/world/office.world): Gazebo world file.  
-- [floor](/model/floor): Floor structure built by Building Editor of Gazebo.  
-- [robot](/model/rb): A robot built by Model Editor of Gazebo.  
+- [floor](/model/floorplan): Floor structure built by Building Editor of Gazebo.  
+- [robot](/model/robo): A robot built by Model Editor of Gazebo.  
 - [welcome.cpp](/script/welcome.cpp): Gazebo world plugin C++ script.  
 - [CMakeLists.txt](CMakeLists.txt): File to link the C++ code to libraries.  
 ## Run the project  
