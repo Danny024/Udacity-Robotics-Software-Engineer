@@ -132,8 +132,7 @@ Directory Structure
 ## File links
 
 - [drive_bot.cpp](/P4/catkin_ws/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with specify speeds.  
-- [process_image.cpp](/P4/catkin_ws/src/ball_chaser/src/process_image.cpp): ROS service C++ script, process the camera image and return requested speeds.   
-- [world.launch](/P4/catkin_ws/src/my_gokart/launch/world.launch): Launch my_gokart mode in Gazebo world with building and plugins.    
+- [process_image.cpp](/P4/catkin_ws/src/ball_chaser/src/process_image.cpp): ROS service C++ script, process the camera image and return requested speeds.      
 - [empty.world](/P4/catkin_ws/src/my_gokart/worlds/empty.world): Empty Gazebo World.  
 - [myoffice.world](/P4/catkin_ws/src/my_gokart/worlds/myoffice.world): Gazebo world file that includes the models.  
 - [CMakeLists.txt](/P4/catkin_ws/src/my_gokart/CMakeLists.txt): File to link the C++ code to libraries.  
