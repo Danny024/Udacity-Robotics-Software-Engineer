@@ -152,7 +152,7 @@ Directory Structure
 ## How to use 
 * Clone this repository
 ```
-git clone 
+git clone https://github.com/Danny024/Udacity-Robotics-Software-Engineer/tree/main/P4.git
 ```
 * Open the repository and make  
 ```
