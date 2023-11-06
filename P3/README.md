@@ -122,7 +122,7 @@ roslaunch my_robot world.launch
 roslaunch my_robot amcl.launch
 ```  
 * Testing  
-You have two options to control your robot while it localize itself here:  
+You can control your robot by either of the two actions:  
   * Send navigation goal via RViz  
   * Send move command via teleop package.  
 Navigate your robot, observe its performance and tune your parameters for AMCL.  
