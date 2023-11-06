@@ -56,8 +56,7 @@ Directory Structure
 ├── world                          # Gazebo main World containing models 
 │   ├── office.world
 ├── CMakeLists.txt                 # Link libraries 
-└── image 
-      ├── myworld.png
+
  
 ```
 - [office.world](/world/office.world): Gazebo world file.  
