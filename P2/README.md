@@ -1,6 +1,6 @@
 <h1> Go Chase It Project</h1>
 
-[You tube Video link](https://www.youtube.com/watch?v=K-wIOrPToOM)
+[You-tube Video link](https://www.youtube.com/watch?v=K-wIOrPToOM)
 
 [![Unmanned Aerial Vehicle](https://img.youtube.com/vi/K-wIOrPToOM/0.jpg)](https://www.youtube.com/watch?v=K-wIOrPToOM)
 ## Project Description 
