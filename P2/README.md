@@ -46,7 +46,7 @@ Directory Structure
 │   │   │   │   ├── ball_chaser.launch
 │   │   │   ├── src                            # source folder for C++ scripts
 │   │   │   │   ├── drive_bot.cpp
-│   │   │   │   ├── process_images.cpp
+│   │   │   │   ├── process_image.cpp
 │   │   │   ├── srv                            # service folder for ROS services
 │   │   │   │   ├── DriveToTarget.srv
 │   │   │   ├── CMakeLists.txt                 # compiler instructions
