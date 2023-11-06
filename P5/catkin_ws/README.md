@@ -62,7 +62,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 ```
 4. On the command line and execute  
 ```
-cd RoboND-Term1-P5-Home-Service-Robot/catkin_ws/src  
+cd P5/catkin_ws/src  
 git clone https://github.com/ros-perception/slam_gmapping.git  
 git clone https://github.com/turtlebot/turtlebot.git  
 git clone https://github.com/turtlebot/turtlebot_interactions.git  
@@ -137,10 +137,10 @@ source devel/setup.bash
 ```
 ./src/scripts/home_service.sh
 ```
-* Done. 
+.
 
-## Tips  
-1. It's recommended to update and upgrade your environment before running the code.  
+## Hints 
+1. Update and upgrade your environment before running the code.  
 ```
 sudo apt-get update && sudo apt-get upgrade -y
 ```
@@ -166,4 +166,4 @@ To see the marker(virtual objects) demo, in addition to running the `./add_marke
 * In the left bottom panel, click "Add" button  
 * In 'By display type' tab, navigate the tree to 'rviz' then 'Marker'  
 * Click 'OK' button  
-* Done, you should see the marker(virtual objects) appear, disappear then appear again  
+* By now you should be able to see the marker(virtual objects) appear, disappear then appear again  
