@@ -101,10 +101,10 @@ P5                                                        # Home Service Robot P
         ├── CMakeLists.txt                                # compiler instructions
 
 ```
-- [view_home_service_navigation.launch](/P5/catkin_ws/src/add_markers/launch/view_home_service_navigation.launch): Launch rviz with specify rviz configuration file  
+- [view_home_service_navigation.launch](/P5/catkin_ws/src/add_markers/launch/home_service_navigation.launch): Launch rviz using rviz configuration  
 - [add_markers.cpp](/P5/catkin_ws/src/pick_objects/src/add_markers.cpp): C++ script, communicate with `pick_objects` node and control the rviz marker appearance to simulate object pick up and drop off   
-- [pick_objects.cpp](/p5/catkin_ws/src/pick_objects/src/pick_objects.cpp): C++ script, communicate with `add_markers` node and command the robot to pick up the object  
-- [home_service_rvizConfig.rviz](/P5/catkin_ws/src/rvizConfig/home_service_rvizConfig.rviz): rvizConfig file for home service robot demo which contained `markers` option  
+- [pick_objects.cpp](/P5/catkin_ws/src/pick_objects/src/pick_objects.cpp): C++ script, communicate with `add_markers` node and command the robot to pick up the object  
+- [config.rviz](/P5/catkin_ws/src/rvizConfig/config.rviz): rvizConfig file for home service robot demo which contained `markers` option  
 - [add_marker.sh](/P5/catkin_ws/src/scripts/add_marker.sh): Shell script file to deploy a turtlebot inside your environment, model a virtual object with markers in `rviz`.  
 - [home_service.sh](/P5/catkin_ws/src/scripts/home_service.sh): Shell script file to deploy a turtlebot inside your environment, simulate a full home service robot capable of navigating to pick up and deliver virtual objects.  
 - [pick_objects.sh](/P5/catkin_ws/src/scripts/pick_objects.sh): Shell script file to deploy a turtlebot inside your environment, communicate with the ROS navigation stack and autonomously send successive goals for your robot to reach.  
