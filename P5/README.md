@@ -137,7 +137,6 @@ source devel/setup.bash
 ```
 ./src/scripts/home_service.sh
 ```
-.
 
 ## Hints 
 1. Update and upgrade your environment before running the code.  
