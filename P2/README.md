@@ -73,8 +73,8 @@ P2                                             # Go Chase It Project
 - [drive_bot.cpp](/P2/catkin_ws/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with specify speeds.  
 - [process_images.cpp](/P2/catkin_ws/src/ball_chaser/src/process_image.cpp): ROS service C++ script, process the camera image and return requested speeds.   
 - [robot_description.launch](/P2/catkin_ws/src/my_robot/launch/robot_description.launch): Create robot model in Gazebo world. 
-- [empty.world](/P2/catkin_ws/src/my_robot/worlds/empty.world): Gazebo world file that includes nothing.  
-- [office.world](/P2/catkin_ws/src/my_robot/worlds/office.world): Gazebo world file that includes the models.  
+- [empty.world](/P2/catkin_ws/src/my_robot/worlds/empty.world): Gazebo empty world.  
+- [office.world](/P2/catkin_ws/src/my_robot/worlds/office.world): Gazebo world with models.  
 - [CMakeLists.txt](/P2/catkin_ws/src/my_robot/CMakeLists.txt): File to link the C++ code to libraries.  
 - [hokuyo.dae](/P2/catkin_ws/src/my_robot/meshes/hokuyo.dae): Hokuyo LiDAR sensor mesh model.  
 - [my_robot.gazebo](/P2/catkin_ws/src/my_robot/urdf/my_robot.gazebo): Define my_robot URDF model plugins.  
