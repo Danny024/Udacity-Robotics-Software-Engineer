@@ -70,7 +70,7 @@ Directory Structure
 ```
 
 - [drive_bot.cpp](/P2/catkin_ws/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with specify speeds.  
-- [process_images.cpp](/P2/catkin_ws/src/ball_chaser/src/process_images.cpp): ROS service C++ script, process the camera image and return requested speeds.  
+- [process_images.cpp](/P2/catkin_ws/src/ball_chaser/src/process_image.cpp): ROS service C++ script, process the camera image and return requested speeds.  
 - [world.launch](/P2/catkin_ws/src/my_gokart/launch/world.launch): Launch my_gokart mode in Gazebo world with building and plugins.  
 - [robot_description.launch](/P2/catkin_ws/src/my_robot/launch/robot_description.launch): Create robot model in Gazebo world. 
 - [empty.world](/P2/catkin_ws/src/my_robot/worlds/empty.world): Gazebo world file that includes nothing.  
