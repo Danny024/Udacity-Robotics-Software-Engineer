@@ -3,7 +3,7 @@
 [You tube Video link](https://www.youtube.com/watch?v=K-wIOrPToOM)
 
 [![Unmanned Aerial Vehicle](https://img.youtube.com/vi/K-wIOrPToOM/0.jpg)](https://www.youtube.com/watch?v=K-wIOrPToOM)
-## Overview  
+## Project Description 
 In this project you'll create two ROS packages inside your `catkin_ws/src`: the `drive_bot` and the `ball_chaser` which will be used in Gazebo for all your upcoming projects in the [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209). Here are the steps to design the robot, house it inside your world, and program it to chase white-colored balls:  
 1. `drive_bot`:  
 * Create a `my_robot` ROS package to hold your robot, the white ball, and the world.
@@ -16,7 +16,7 @@ In this project you'll create two ROS packages inside your `catkin_ws/src`: the 
 * Write a `drive_bot` C++ node that will provide a `ball_chaser/command_robot` service to drive the robot by controlling its linear x and angular z velocities. The service should publish to the wheel joints and return back the requested velocities.
 * Write a `process_image` C++ node that reads your robot’s camera image, analyzes it to determine the presence and position of a white ball. If a white ball exists in the image, your node should request a service via a client to drive the robot towards it.
 * The `ball_chaser.launch` should run both the `drive_bot` and the `process_image` nodes.  
-## Prerequisites/Dependencies  
+## Prerequisites/Dependencies and Installations  
 * Gazebo >= 7.0  
 * ROS Kinetic  
 * make >= 4.1(mac, linux), 3.81(Windows)
@@ -27,7 +27,7 @@ In this project you'll create two ROS packages inside your `catkin_ws/src`: the 
   * Linux: gcc / g++ is installed by default on most Linux distros
   * Mac: same deal as make - [install Xcode command line tools]((https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
-## Setup Instructions 
+## How to Set up
 1. Meet the `Prerequisites/Dependencies`  
 2. Open Ubuntu Bash and clone the project repository  
 3. On the command line execute  
@@ -35,10 +35,10 @@ In this project you'll create two ROS packages inside your `catkin_ws/src`: the 
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 4. Build and run your code.  
-## Project Description  
+## File Management System
 Directory Structure  
 ```
-.Go-Chase-It                                   # Go Chase It Project
+P2                                             # Go Chase It Project
 ├── catkin_ws                                  # Catkin workspace
 │   ├── src
 │   │   ├── ball_chaser                        # ball_chaser package        
@@ -71,8 +71,7 @@ Directory Structure
 ```
 
 - [drive_bot.cpp](/P2/catkin_ws/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with specify speeds.  
-- [process_images.cpp](/P2/catkin_ws/src/ball_chaser/src/process_image.cpp): ROS service C++ script, process the camera image and return requested speeds.  
-- [world.launch](/P2/catkin_ws/src/my_gokart/launch/world.launch): Launch my_gokart mode in Gazebo world with building and plugins.  
+- [process_images.cpp](/P2/catkin_ws/src/ball_chaser/src/process_image.cpp): ROS service C++ script, process the camera image and return requested speeds.   
 - [robot_description.launch](/P2/catkin_ws/src/my_robot/launch/robot_description.launch): Create robot model in Gazebo world. 
 - [empty.world](/P2/catkin_ws/src/my_robot/worlds/empty.world): Gazebo world file that includes nothing.  
 - [office.world](/P2/catkin_ws/src/my_robot/worlds/office.world): Gazebo world file that includes the models.  
@@ -81,7 +80,7 @@ Directory Structure
 - [my_robot.gazebo](/P2/catkin_ws/src/my_robot/urdf/my_robot.gazebo): Define my_robot URDF model plugins.  
 - [my_robot.xacro](/P2/catkin_ws/src/my_robot/urdf/my_robot.xacro): Define my_robot URDF model.  
 
-## Run the project  
+## How to Run the Project  
 * Clone this repository
 * Open the repository and make  
 ```
