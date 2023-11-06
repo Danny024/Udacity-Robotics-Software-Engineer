@@ -5,9 +5,9 @@
  
 <summary>🔨 Projects</summary>
   
-  - [x] P1: [Build My World](P1)
-  - [x] P2: [Go Chase It!](P2)
-  - [x] P3: [Where Am I?](P3)
-  - [x] P4: [Map My World](P4)
-  - [x] P5: [Home Service Robot](P5)
+     - P1: [Build My World](P1)
+     - P2: [Go Chase It!](P2)
+     - P3: [Where Am I?](P3)
+     - P4: [Map My World](P4)
+     - P5: [Home Service Robot](P5)
   
