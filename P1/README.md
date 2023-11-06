@@ -57,8 +57,8 @@ Directory Structure
 │   ├── office.world
 ├── CMakeLists.txt                 # Link libraries 
 └── image 
-│   │   ├── myworld.png
-│   │   
+      ├── myworld.png
+ 
 ```
 - [office.world](/world/office.world): Gazebo world file.  
 - [floor](/model/floor): Floor structure built by Building Editor of Gazebo.  
