@@ -3,8 +3,8 @@
 
 [![Service Robot](https://img.youtube.com/vi/dylTKX7KMa4/0.jpg)](https://www.youtube.com/watch?v=dylTKX7KMa4)
 
-## Overview  
-In this project, you will use everything you learned in the Nanodegree Program to build a Home Service Robot in ROS.  
+## Project Description  
+This project comprises of the following exercises :
 ### Mapping  
 You will create a `test_slam.sh` script file and launch it to manually test SLAM.  
 A functional map of the environment should be created which would be used for localization and navigation tasks.  
@@ -24,22 +24,22 @@ The student's home service robot should be simulated as follow:
 * Show the marker at the drop off zone once your robot reaches it.
 
 
-## Prerequisites/Dependencies  
+## Prerequisites/Dependencies  & Installations
 * Gazebo >= 7.0  
 * ROS Kinetic  
-* ROS navigation package  
+* Install ROS navigation package  
 ```
 sudo apt-get install ros-kinetic-navigation
 ```
-* ROS map_server package  
+* Install ROS map_server package  
 ```
 sudo apt-get install ros-kinetic-map-server
 ```
-* ROS move_base package  
+* Install ROS move_base package  
 ```
 sudo apt-get install ros-kinetic-move-base
 ```
-* ROS amcl package  
+* Install ROS amcl package  
 ```
 sudo apt-get install ros-kinetic-amcl
 ```
@@ -53,7 +53,7 @@ sudo apt-get install ros-kinetic-amcl
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 
 
-## Setup Instructions (abbreviated)  
+## How to Set up workspace  
 1. Meet the `Prerequisites/Dependencies`  
 2. Open Ubuntu Bash and clone the project repository  
 3. On the command line and execute  
@@ -75,32 +75,31 @@ Directory Structure
 ```
 .Home-Sevice-Robot                                        # Home Service Robot Project
 ├── catkin_ws                                             # Catkin workspace
-│   ├── src
-│   │   ├── add_markers                                   # add_markers package        
-│   │   │   ├── launch
-│   │   │   │   ├── view_home_service_navigation.launch   # launch file for home service robot demo
-│   │   │   ├── src
-│   │   │   │   ├── add_markers.cpp                       # source code for add_markers node
-│   │   │   │   ├── add_markers_demo.cpp                  # source code for add_markers_demo
-│   │   ├── pick_objects                                  # pick_objects package     
-│   │   │   ├── src
-│   │   │   │   ├── pick_objects.cpp                      # source code for pick_objects node
-│   │   │   │   ├── pick_objects_demo.cpp                 # source code for pick_objects_demo
-│   │   ├── rvizConfig                                    # rvizConfig package        
-│   │   │   ├── home_service_rvizConfig.rviz              # rvizConfig file for home service robot demo  
-│   │   ├── scripts                                       # shell scripts files
-│   │   │   ├── add_marker.sh                             # shell script to model virtual objects  
-│   │   │   ├── home_service.sh                           # shell script to launch home service robot demo  
-│   │   │   ├── pick_objects.sh                           # shell script to send multiple goals  
-│   │   │   ├── test_navigation.sh                        # shell script to test localization and navigation
-│   │   │   ├── test_slam.sh                              # shell script to test SLAM
-│   │   ├── slam_gmapping                                 # gmapping_demo.launch file
-│   │   ├── turtlebot                                     # keyboard_teleop.launch file
-│   │   ├── turtlebot_interactions                        # view_navigation.launch file
-│   │   ├── turtlebot_simulator                           # turtlebot_world.launch file package        
-│   │   ├── CMakeLists.txt                                # compiler instructions
-├── video.mp4                                             # Videos for overview
-├── video.gif                                             # GIF for overview
+    ├── src
+        ├── add_markers                                   # add_markers package        
+        │   ├── launch
+        │   │   ├── view_home_service_navigation.launch   # launch file for home service robot demo
+        │   ├── src
+        │   │   ├── add_markers.cpp                       # source code for add_markers node
+        │   │   ├── add_markers_demo.cpp                  # source code for add_markers_demo
+        ├── pick_objects                                  # pick_objects package     
+        │   ├── src
+        │   │   ├── pick_objects.cpp                      # source code for pick_objects node
+        │   │   ├── pick_objects_demo.cpp                 # source code for pick_objects_demo
+        ├── rvizConfig                                    # rvizConfig package        
+        │   ├── home_service_rvizConfig.rviz              # rvizConfig file for home service robot demo  
+        ├── scripts                                       # shell scripts files
+        │   ├── add_marker.sh                             # shell script to model virtual objects  
+        │   ├── home_service.sh                           # shell script to launch home service robot demo  
+        │   ├── pick_objects.sh                           # shell script to send multiple goals  
+        │   ├── test_navigation.sh                        # shell script to test localization and navigation
+        │   ├── test_slam.sh                              # shell script to test SLAM
+        ├── slam_gmapping                                 # gmapping_demo.launch file
+        ├── turtlebot                                     # keyboard_teleop.launch file
+        ├── turtlebot_interactions                        # view_navigation.launch file
+        ├── turtlebot_simulator                           # turtlebot_world.launch file package        
+        ├── CMakeLists.txt                                # compiler instructions
+
 ```
 - [view_home_service_navigation.launch](/catkin_ws/src/add_markers/launch/view_home_service_navigation.launch): Launch rviz with specify rviz configuration file  
 - [add_markers.cpp](/catkin_ws/src/pick_objects/src/add_markers.cpp): C++ script, communicate with `pick_objects` node and control the marker appearance to simulate object pick up and drop off   
