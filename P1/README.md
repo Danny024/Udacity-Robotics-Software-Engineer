@@ -59,10 +59,10 @@ Directory Structure
 
  
 ```
-- [office.world](/world/office.world): Gazebo world file.  
-- [floor](/model/floorplan): Floor structure built by Building Editor of Gazebo.  
-- [robot](/model/robo): A robot built by Model Editor of Gazebo.  
-- [welcome.cpp](/script/welcome.cpp): Gazebo world plugin C++ script.  
+- [office.world](/P1/world/office.world): Gazebo world file.  
+- [floor](/P1/model/floorplan): Floor structure built by Building Editor of Gazebo.  
+- [robot](/P1/model/robo): A robot built by Model Editor of Gazebo.  
+- [welcome.cpp](/P1/script/welcome.cpp): Gazebo world plugin C++ script.  
 - [CMakeLists.txt](CMakeLists.txt): File to link the C++ code to libraries.  
 ## Run the project  
 * Clone this repository
@@ -80,7 +80,7 @@ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/P1-Build-My-Worl
 ```
 * Launch the world file in Gazebo to load both the world and plugin  
 ```bash
-cd /home/workspace/P1-Build-My-World/world/
+cd /home/workspace/P1/world/
 gazebo office.world
 ```
 
