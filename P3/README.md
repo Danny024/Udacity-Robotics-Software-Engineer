@@ -92,7 +92,7 @@ P3                                          # Where Am I Project
 
 ## File links
 - [drive_bot.cpp](/P3/catkin_ws/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with specify speeds.  
-- [process_images.cpp](/P3/catkin_ws/src/ball_chaser/src/process_image.cpp): ROS service C++ script, process the camera image and return requested speeds.   
+- [process_image.cpp](/P3/catkin_ws/src/ball_chaser/src/process_image.cpp): ROS service C++ script, process the camera image and return requested speeds.   
 - [robot_description.launch](/P3/catkin_ws/src/my_robot/launch/robot_description.launch): Create robot model in Gazebo world.  
 - [hokuyo.dae](/P3/catkin_ws/src/my_robot/meshes/hokuyo.dae): Hokuyo LiDAR sensor mesh model.  
 - [my_robot.gazebo](/P3/catkin_ws/src/my_robot/urdf/my_robot.gazebo): Define my_robot URDF model plugins.  
