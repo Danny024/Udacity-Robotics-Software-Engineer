@@ -124,11 +124,9 @@ Directory Structure
 │   │   │   ├── package.xml                    # package info
 │   │   │   ├── teleop_twist_keyboard.py       # keyboard controller
 ├── my_ball                                    # Model files 
-│   ├── model.config
-│   ├── model.sdf
-├── screenshot.JPG                             # Screenshots
-├── screenshot1.JPG                            # Screenshots
-├── rtabmap.db
+    ├── model.config
+    ├── model.sdf
+
 ```
 
 ## File links
