@@ -106,7 +106,7 @@ P3                                          # Where Am I Project
 ## How to use this project 
 * Clone this repository
 ```
-git clone https://github.com/anyuguo/Robotics-Software-Engineer-Udacity/tree/master/P3-Where-Am-I.git
+git clone https://github.com/anyuguo/Robotics-Software-Engineer-Udacity/tree/master/P3-Where-Am-I.git](https://github.com/Danny024/Udacity-Robotics-Software-Engineer.git
 ```
 * Open the repository and make  
 ```
@@ -136,7 +136,7 @@ Open another terminal and launch the `teleop` script:
 ```
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
-You could control your robot by keyboard commands now.  
+
 
 ## Helpful Hints  
 1. It's recommended to update and upgrade your environment before running the code.  
