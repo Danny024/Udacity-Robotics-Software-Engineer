@@ -94,7 +94,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 Adhere to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
 
-## Marking Scheme 
+## Marking Guide 
 ### 1. Basic Requirements  
 #### 1.1 Does the project include a world directory containing the Gazebo world file, a model directory containing a structure and an object model files, a script directory containing the C++ plugin code, and a CMakeLists.txt file?  
 Yes, it does.  
