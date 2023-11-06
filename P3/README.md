@@ -106,7 +106,7 @@ P3                                          # Where Am I Project
 ## How to use this project 
 * Clone this repository
 ```
-git clone https://github.com/anyuguo/Robotics-Software-Engineer-Udacity/tree/master/P3-Where-Am-I.git](https://github.com/Danny024/Udacity-Robotics-Software-Engineer.git
+git clone https://github.com/Danny024/Udacity-Robotics-Software-Engineer/tree/main/P3.git
 ```
 * Open the repository and make  
 ```
