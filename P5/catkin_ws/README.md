@@ -116,7 +116,7 @@ P5                                                        # Home Service Robot P
 ## Run the project  
 * Clone this repository
 ```
-
+git clone 
 ```
 * Navigate to the `src` folder and clone the necessary repositories  
 ```
