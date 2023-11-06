@@ -92,7 +92,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 ## Code Style
 
-Please (do your best to) stick to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
+Adhere to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
 
 ## Udacity Project Rubric / Marking Scheme 
 ### 1. Basic Requirements  
