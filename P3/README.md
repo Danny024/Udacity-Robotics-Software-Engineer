@@ -145,7 +145,7 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```bash
 sudo apt-get update && sudo apt-get upgrade -y
 ```
-2. Got an error when launching amcl.launch  
+2. if you get an error when launching amcl.launch  
 check the amcl.launch file that you have correctly mapped the topics to the correct published ones  
 ```
 <remap to="scan" from="my_robot/laser/scan"/>  
