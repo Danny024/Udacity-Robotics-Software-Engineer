@@ -97,16 +97,11 @@ Adhere to [Google's C++ style guide](https://google.github.io/styleguide/cppguid
 ## Marking Guide 
 ### 1. Basic Requirements  
 #### 1.1 Does the project include a world directory containing the Gazebo world file, a model directory containing a structure and an object model files, a script directory containing the C++ plugin code, and a CMakeLists.txt file?  
-Yes, it does.  
 ### 2. Building  
 #### 2.1 Does the project include a house with walls?  
-Yes, it does.  
 ### 3. Modeling  
-#### 3.1 Does the project include an object built using the Model Editor?  
-Yes, it does.  
+#### 3.1 Does the project include an object built using the Model Editor?   
 ### 4. Gazebo World  
-#### 4.1 Does the project contain a Gazebo world with multiple models?  
-Yes, it does.  
+#### 4.1 Does the project contain a Gazebo world with multiple models?  . 
 ### 5. World Plugin  
-#### 5.1 Does the project contain a C++ world plugin?  
-Yes, it does.  
+#### 5.1 Does the project contain a C++ world plugin?   
